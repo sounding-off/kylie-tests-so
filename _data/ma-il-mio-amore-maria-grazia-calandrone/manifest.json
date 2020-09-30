@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Ma il Mio Amore, Maria Grazia Calandrone" ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/x/Italiana.php",
+        "type": "Text",
+        "label": { "en": [ "Home page for Ma il Mio Amore, Maria Grazia Calandrone" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.upenn.edu/",
+        "type": "Agent",
+        "label": { "en": [ "University of Pennsylvania" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 40.0,
+        "items": [
+          {
+            "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/groups/Italiana/Calandrone-Maria-Grazia_Ma-il-Mio-Amore_2010.MP3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 40.0
+                },
+                "target": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
