@@ -27,6 +27,12 @@
           
           {
             "type": "AnnotationPage",
+            "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/accents.json",
+            "label": "accents"
+          }
+          ,
+          {
+            "type": "AnnotationPage",
             "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary.json",
             "label": "commentary"
           }

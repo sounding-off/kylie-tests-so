@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/accents.json",
+  "type": "AnnotationPage",
+  "label": "accents",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/accents-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "this is an annotation in english",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "4"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/accents-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "questa poema, comunque, |Eù|T|RBJHGJHI(Ué()IOPOIU)(===OOIU|\\ERE\\|ERR§*§piiIU\\e\\ee",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "8"
+        }
+      }
+    }
+  ]
+}
