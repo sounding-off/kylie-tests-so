@@ -23,6 +23,14 @@
         "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
         "type": "Canvas",
         "duration": 40.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary.json",
+            "label": "commentary"
+          }
+        ],
         "items": [
           {
             "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/paintings",
@@ -34,9 +42,7 @@
                 "motivation": "painting",
                 "body": {
                   "id": "https://media.sas.upenn.edu/pennsound/groups/Italiana/Calandrone-Maria-Grazia_Ma-il-Mio-Amore_2010.MP3",
-                  "type": "Sound",
-                  "format": "audio/mp3",
-                  "duration": 40.0
+                    "duration": 40.0
                 },
                 "target": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas"
               }

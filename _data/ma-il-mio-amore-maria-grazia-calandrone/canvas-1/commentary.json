@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary.json",
+  "type": "AnnotationPage",
+  "label": "commentary",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "italiano",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "1"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "c'e una poema in italiano",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "3"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas/commentary-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "ooh, piu italiano",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://sounding-off.github.io/kylie-tests-so/ma-il-mio-amore-maria-grazia-calandrone/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "5"
+        }
+      }
+    }
+  ]
+}
